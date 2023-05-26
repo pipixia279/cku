@@ -29,7 +29,7 @@ new Thread(new Runnable() {
     public void run() {
         // TODO Auto-generated method stub
         while(true) {
-            if (b > 1) continue;
+            if (b >= 1) continue;
             b = b -1;
             if(b < 0){
               a++;
